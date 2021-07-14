@@ -1,0 +1,2 @@
+rootProject.name = "QLCD"
+include ':app'

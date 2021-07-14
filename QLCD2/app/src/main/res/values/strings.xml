@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QLCD</string>
+    <string-array name="choice">
+        <item>CMND</item>
+        <item>Họ và tên</item>
+        <item>Ngày sinh</item>
+        <item>Quê quán</item>
+        <item>Hộ khẩu</item>
+        <item>Giới tính</item>
+        <item>Nơi ở hiện tại</item>
+        <item>Họ và tên bố</item>
+        <item>Họ và tên mẹ</item>
+        <item>Họ và tên vợ</item>
+        <item>Năm sinh bố</item>
+        <item>Năm sinh mẹ</item>
+        <item>Năm sinh vợ</item>
+        <item>Số điện thoại</item>
+        <item>Có Tiền án</item>
+    </string-array>
+</resources>

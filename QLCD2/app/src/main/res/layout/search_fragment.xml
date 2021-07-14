@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textColor="#111"
+            android:visibility="gone"
+            android:id="@+id/contentSearch"
+            android:paddingLeft="5dp"
+            android:drawableLeft="@drawable/ic_action_search"
+            android:background="@drawable/custome_edittext"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinners"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSearchAll"
+        android:textColorHint="#111"
+        android:hint="Tìm kiếm"
+        android:background="#FFAB40"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ln"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_below="@id/btnSearchAll"
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/totalcitizen"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Tổng số công dân: 20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ln1"
+        android:id="@+id/rys1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
